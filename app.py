@@ -153,12 +153,5 @@ def chart_data():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# 其他 API 路由...
-
-@app.route("/", methods=["GET"])
-def index():
-    return "🚀 QuantEye 后端已成功部署！"
-
-import os
-port = int(os.environ.get("PORT", 5000))  # 读取环境变量 PORT
-app.run(host='0.0.0.0', port=port)
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5053, debug=True)
