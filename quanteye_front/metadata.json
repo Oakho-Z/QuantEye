@@ -1,0 +1,6 @@
+{
+  "name": "QuantEye: Institutional Crypto Portfolio Optimizer",
+  "description": "An advanced financial technology application for institutional investors to optimize cryptocurrency portfolios. It features a multi-stage data pipeline, performance backtesting, and an AI-powered analyst for portfolio insights.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
